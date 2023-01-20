@@ -2,3 +2,7 @@ baseURL = 'https://alexandre-normand.github.io/supernote-diy-pens'
 languageCode = 'en-us'
 title = 'Supernote DIY Pen Compatibility Catalog'
 theme = 'github.com/nodejh/hugo-theme-mini'
+
+[module]
+[[module.imports]]
+  path = 'github.com/nodejh/hugo-theme-mini'
